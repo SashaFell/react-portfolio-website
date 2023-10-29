@@ -1,0 +1,30 @@
+.header__container {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+.t2 {
+    margin-top: 2rem;
+}
+
+/* ===== CTA ===== */
+.cta {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ===== ME ===== */
+.me {
+    width: 22rem;
+    height: 22rem;
+    position: relative;
+    left: calc(50% - 11rem);
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    border-radius: 15rem 15rem 15rem 15rem;
+    overflow: hidden;
+}
+
