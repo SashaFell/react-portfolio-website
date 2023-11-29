@@ -12,7 +12,9 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
-      <Navbar/>
+      <React.Fragment>
+        <Navbar/>
+      </React.Fragment>
       <Header />
       <About />
       <Wiss />

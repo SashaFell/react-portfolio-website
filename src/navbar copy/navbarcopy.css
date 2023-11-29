@@ -1,39 +1,31 @@
-*{
-	padding: 0px;
-	margin: 0;
+.navbar {
+	position: fixed;
 	box-sizing: border-box;
+	z-index: 1;
+	margin: 0;
 }
 
 header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 80px;
-	padding: 0 2rem;
-	background-color: var(--color-bg-variant);
-	color: var(--color-white)
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	background: transparent;
+	color: var(--color-white);
+	position: absolute;
+	width: 100%;
 }
 
 nav a {
-	margin: 0 2rem;
-	color: var(--color-light);
+	margin: 0 1rem;
+	color: var(--color-white);
 	text-decoration: none;
 }
 
 nav a:hover {
 	color: var(--color-primary);
-}
-
-header .nav-btn {
-	padding: 5px;
-	cursor: pointer;
-	background: transparent;
-	border:none;
-	outline: none;
-	color: var(--color-white);
-	visibility: hidden;
-	opacity: 0;
-	font-size: 1.8rem;
 }
 
 header div,
@@ -59,22 +51,17 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--color-bg-variant);
+		background-color: var(--color-bg);
 		transition: 1s;
 	}
 
-	header .responsive_nav{
+	header .responsive_nav {
 		transform: translateY(100vh);
 	}
 
-	nav .nav-close-btn {
-		position:absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+
 
 	nav a {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
-
 }
