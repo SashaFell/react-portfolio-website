@@ -1,11 +1,13 @@
 import { useRef } from "react";
-import "./navbar.css";
+import "./navbar1.css";
 
 import {AiOutlineGithub} from 'react-icons/ai'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {HiOutlineDocumentText} from 'react-icons/hi'
 
-function Navbar() {
+import {FaBars, FaTimes} from "react-icons/fa";
+
+function Navbar1() {
 	const navRef = useRef();
 
 	const showNavbar = () => {
@@ -16,7 +18,7 @@ function Navbar() {
 
 	return (
 		<header>
-			<h3>LOGO</h3>
+			<FaBars/>
 			<nav ref={navRef}>
 				<a href="https://github.com/SashaFell" target="_blank"><AiOutlineGithub/></a>
 				<a href="https://www.linkedin.com/in/sasha-fellmann-a53a29286/" target="_blank"><AiOutlineLinkedin/></a>
@@ -26,4 +28,4 @@ function Navbar() {
 	);
 }
 
-export default Navbar;
+export default Navbar1;

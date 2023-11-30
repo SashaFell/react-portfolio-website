@@ -15,24 +15,35 @@
 .portfolio__bloc-tabs {
   display: flex;
 }
+
+.portfolio__tabs:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
 .portfolio__tabs {
   padding: 1rem 2rem;
     text-align: center;
     width: 150px;
     background: var(--color-bg);
+    color: var(--color-primary);
     cursor: pointer;
     position: relative;
     outline: none;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-primary);
     border-radius: 2rem;
     margin-bottom: 3rem;
     margin-left: 2rem;
     margin-right: 2rem;
-}  
-.portfolio__active-tabs  {
-    background: var(--color-bg-variant);
-    border: 2px solid transparent;
 }
+
+.portfolio__active-tabs  {
+    background: var(--color-primary);
+    border: 2px solid transparent;
+    color: var(--color-bg);
+}
+
 
 button {
     border: none;
