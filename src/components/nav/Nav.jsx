@@ -10,6 +10,7 @@ const Nav = () => {
 <label className="hamburger-menu">
     <input type="checkbox"/>
         </label>
+        <h1>Help</h1>
             <aside className="sidebar">
                 <nav>
                 <div/> <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>Home</a>
@@ -21,6 +22,7 @@ const Nav = () => {
                 <div/> <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>Contact</a>
                 </nav>
             </aside>
+            
         </div>
     )
 }

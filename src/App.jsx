@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './components/header/Header'
 import Navbar1 from './components/navbar1/Navbar1'
 import Navbar from './components/navbar/Navbar'
+import Nav from './components/nav/Nav'
+import Nav1 from './components/nav1/Nav1'
 import About from './components/about/About'
 import Downloads from './components/downloads/Downloads'
 import Wiss from './components/wiss/Wiss'
@@ -14,7 +16,7 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
-      <Navbar1/>
+      <Nav1/>
       <Header />
       <About />
       <Downloads />

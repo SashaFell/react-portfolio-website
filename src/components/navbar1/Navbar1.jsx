@@ -22,7 +22,7 @@ function Navbar1() {
 			<nav ref={navRef}>
 				<a href="https://github.com/SashaFell" target="_blank"><AiOutlineGithub/></a>
 				<a href="https://www.linkedin.com/in/sasha-fellmann-a53a29286/" target="_blank"><AiOutlineLinkedin/></a>
-				<a href="/#about"><HiOutlineDocumentText/></a>
+				<a href="/#downloads"><HiOutlineDocumentText/></a>
 			</nav>
 		</header>
 	);
