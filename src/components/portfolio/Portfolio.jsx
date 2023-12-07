@@ -69,11 +69,11 @@ function Portfolio() {
       <div className="container portfolio__container">
         <div className="portfolio__bloc-tabs">
           <button className={toggleState === 1 ? "portfolio__tabs portfolio__active-tabs" : "portfolio__tabs"} onClick={() => toggleTab(1)}>
-          Games
+          School
           </button>
 
           <button className={toggleState === 2 ? "portfolio__tabs portfolio__active-tabs" : "portfolio__tabs"} onClick={() => toggleTab(2)}>
-            School
+            Games
           </button>
 
           <button className={toggleState === 3 ? "portfolio__tabs portfolio__active-tabs" : "portfolio__tabs"} onClick={() => toggleTab(3)}>
