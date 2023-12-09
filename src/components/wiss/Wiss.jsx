@@ -26,7 +26,7 @@ const Wiss = () => {
 
         
         <div className="wiss-cta">
-            <a href= "#about" className='btn'>Move To Downloads</a>
+            <a href= "#downloads" className='btn'>Move To Downloads</a>
             <a href="https://www.wiss.ch/de-CH/Angebot/Grundbildung/Informatiker-in-EFZ-Fachrichtung-Applikationsentwicklung" target="_blank" className='btn btn-primary'>WISS Website</a>
         </div>
         </div>
