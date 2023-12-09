@@ -10,14 +10,14 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    name: 'Tina Snow',
+    name: 'Patrizia Mottl',
     position: 'Teacher At WISS',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum asperiores cupiditate autem inventore molestias! Dolor dolore ipsam similique aliquam iure vero eveniet sit, ad voluptates. Molestias dolore eligendi error perferendis!',
+    review: 'I taught Sasha Fellmann in the module 322. He was always present in class and actively participated. In their project, Mr. Fellmann and his team, created a GUI prototype using Figma. The GUI was consistently structured and tailored to the user requirements. The final usability tests demonstrated, that users could easily navigate the app.',
   },
   {
     name: 'Shatta Wale',
     position: 'Teacher At WISS',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum asperiores cupiditate autem inventore molestias! Dolor dolore ipsam similique aliquam iure vero eveniet sit, ad voluptates. Molestias dolore eligendi error perferendis!',
+    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum asperiores cupiditate autem inventore molestias! Dolor dolore ipsam similique aliquam iure vero eveniet sit, ad voluptates. Molestias dolore eligendi error perferendis! ad voluptates. Molestias dolore eligendi error perferendis!ad voluptates. Molestias dolore eligendi error perferendis!',
   },
   {
     name: 'Person 3',
