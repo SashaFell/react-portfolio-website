@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/IMG_E1720.JPG'
-import CV from '../../assets/CV_Sasha_Fellmann.pdf'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -55,7 +54,7 @@ const about = () => {
             </p>
            
           <div className="about-cta">
-            <a href={CV} download className='btn'>Download All Documents</a>
+            <a href='#downloads' className='btn'>Move To Downloads</a>
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
           </div>
         </div>
