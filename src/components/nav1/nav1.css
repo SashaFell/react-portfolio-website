@@ -6,10 +6,10 @@
 }
 
 :root {
-  --bar-width: 60px;
-  --bar-height: 8px;
-  --hamburger-gap: 6px;
-  --hamburger-margin: 8px;
+  --bar-width: 45px;
+  --bar-height: 6px;
+  --hamburger-gap: 5px;
+  --hamburger-margin: 17px;
   --animation-timing: 250ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }

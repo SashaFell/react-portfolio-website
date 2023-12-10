@@ -11,8 +11,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     name: 'Patrizia Mottl',
-    position: 'Teacher At WISS',
-    review: 'I taught Sasha Fellmann in the module 322. He was always present in class and actively participated. In their project, Mr. Fellmann and his team, created a GUI prototype using Figma. The GUI was consistently structured and tailored to the user requirements. The final usability tests demonstrated, that users could easily navigate the app.',
+    position: 'Teacher At WISS, M322',
+    review: 'Mr. Fellmann was always present in class and actively participated. In their project, Mr. Fellmann and his team, created a GUI prototype using Figma. The GUI was consistently structured and tailored to the user requirements. The final usability tests demonstrated, that users could easily navigate the app.',
   },
   {
     name: 'Shatta Wale',
