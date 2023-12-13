@@ -4,29 +4,19 @@ import './wiss.css'
 const Wiss = () => {
   return (
     <section id='wiss'>
-        <h5>The School I Go To</h5>
+        <h5>Mehr zu meiner Schule</h5>
         <h2>WISS Altstetten</h2>
         <div className="container wiss__container">
-          <p>WISS is a Swiss-based education and training institiution that provides specialized courses in the fields of business, computer science, and real estate. The institution offers a wide range of programs, from basic vocational training to higher education and post-graduate studies. With a focus on practical skills and hands-on experience, the institution aims to provide its students with the knowledge and expertise needed to succeed in their chosen careers. The course that I’m attending (Informatiker/in EFZ Fachrichtung Applikationsentwicklung) follows BiVo 21 and works towards the goal of getting an EFZ diploma. In this course students will absolve two years of school followed by a two-year internship, during which students attend school for half a day per week. At the end of this Internship students will take the IPA (Individuelle Praktische Arbeit). 
-          </p>
-          <br></br>
-          <p>Some of the skills WISS wishes to impart to its students:</p>
-          <p>
-            •	Accompanying ICT projects/IT project management
-            •	Supporting and advising in the ICT environment
-            •	Building and maintaining digital data
-            •	Developing applications
-            •	Delivering and operating applications
-            •
+          <p>Die WISS ist eine in der Schweiz ansässige Bildungs- und Schulungseinrichtung, die spezialisierte Kurse in den Bereichen Wirtschaft, Informatik und Immobilien anbietet. Die Einrichtung bietet eine Vielzahl von Programmen an, von grundlegender beruflicher Ausbildung bis hin zu Hochschul- und Postgraduiertenstudien. Mit einem Schwerpunkt auf praktischen Fähigkeiten und praktischer Erfahrung strebt die Einrichtung danach, ihren Studierenden das für ihren gewählten Beruf erforderliche Wissen und die erforderliche Expertise zu vermitteln. Der Kurs, den ich besuche (Informatiker/in EFZ Fachrichtung Applikationsentwicklung), folgt BiVo 21 und arbeitet darauf hin, ein EFZ-Diplom zu erhalten. In diesem Kurs absolvieren die Studierenden zwei Jahre Schulunterricht, gefolgt von einem zweijährigen Praktikum, während dem die Studierenden einmal pro Woche halbtags die Schule besuchen. Am Ende dieses Praktikums werden die Studierenden die IPA (Individuelle Praktische Arbeit) absolvieren.. 
           </p>
           <br></br>
           <p>
-            For more information on the internship please consult the PDF file, available in the about me section, or visit the website linked below.
+            Für mehr Informationen über das Praktikum, wenden sie sich bitte an das entsprechende PDF Dokument in der Download Sektion, oder besuchen sie die unten verlinkte Webseite.
           </p>
 
         
         <div className="wiss-cta">
-            <a href= "#downloads" className='btn'>Move To Downloads</a>
+            <a href= "#downloads" className='btn'>Zu den Downloads</a>
             <a href="https://www.wiss.ch/de-CH/Angebot/Grundbildung/Informatiker-in-EFZ-Fachrichtung-Applikationsentwicklung" target="_blank" className='btn btn-primary'>WISS Website</a>
         </div>
         </div>

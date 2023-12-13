@@ -24,8 +24,8 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Hier können sie sich bei mir melden</h5>
+      <h2>Kontakt</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -33,21 +33,21 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>sasha.fellmann@bluewin.ch</h5>
-            <a href="mailto:sasha.fellmann@bluewin.ch" target="_blank">Send a message</a>
+            <a href="mailto:sasha.fellmann@bluewin.ch" target="_blank">Nachricht schicken</a>
           </article>
           <article className="contact__option">
             <AiOutlinePhone className='contact__option-icon' />
             <h4>Phone</h4>
             <h5>078 708 16 66</h5>
-            <a href="https://api.whatsapp.com/send?phone+41787081666" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone+41787081666" target="_blank">Nachricht schicken</a>
           </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="10" placeholder='Your Message' required ></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <input type="text" name='name' placeholder='Ihr voller Name' required />
+          <input type="email" name='email' placeholder='Ihre Email' required />
+          <textarea name="message" rows="10" placeholder='Ihre Nachricht' required ></textarea>
+          <button type='submit' className='btn btn-primary'>Nachricht schicken</button>
         </form>
       </div>
     </section>

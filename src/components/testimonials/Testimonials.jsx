@@ -11,8 +11,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     name: 'Patrizia Mottl',
-    position: 'Teacher At WISS, M322',
-    review: 'Mr. Fellmann was always present in class and actively participated. In their project, Mr. Fellmann and his team, created a GUI prototype using Figma. The GUI was consistently structured and tailored to the user requirements. The final usability tests demonstrated, that users could easily navigate the app.',
+    position: 'Lehrerin an der WISS, M322',
+    review: 'Herr Fellmann war im Unterricht immer anwesend und hat aktiv mitgearbeitet. In der Projektarbeit erstellte er zusammen mit seinem Team einen GUI-Prototypen mit Figma. Das GUI war konsistent aufgebaut und auf die Benutzeranforderungen abgestimmt. In den Usability Tests wurde aufgezeigt, dass die Applikation ohne Mühe von den Benutzern verstanden wurde.',
   },
   {
     name: 'Shatta Wale',
@@ -34,8 +34,8 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Bewertungen von Kunden und Ähnliches</h5>
+      <h2>Referenzen</h2>
 
     <Swiper className="container testimonials__container"
     modules={[ Pagination ]}

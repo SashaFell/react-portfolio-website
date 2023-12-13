@@ -9,8 +9,8 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const about = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>Mehr Infos</h5>
+      <h2>Über mich</h2>
 
       <div className='container about__container'>
         <div className="about__me">
@@ -23,39 +23,33 @@ const about = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>~2 Years School</small>
+              <h5>Erfahrung</h5>
+              <small>~2 Jahre Schule</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Subjects</h5>
-              <small>30+ Courses absolved</small>
+              <h5>Fächer</h5>
+              <small>30+ Module besucht</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <h5>Projekte</h5>
+              <small>5+ Fertige Projekte</small>
             </article>
           </div>
 
             <p>
-            My name is Sasha, I am 22 years old and currently completing my second schoolyear at WISS Altstetten. 
-            Before settling on developer, I tried out a couple of different career paths. I went to Atelierschule Zürich (Rudolf Steiner Schule) for two years, got my advanced Diploma (Cambridge Certificate in Advanced English) during a language stay in London and I started an Apprenticeship as a Landscaping Gardener. As you can probably tell, neither High School nor the Gardener Apprenticeship was for me. After a Hiatus and a lot of contemplating I finally decided that I wanted to be a fullstack developer. I enrolled at WISS and started my developer journey. In the almost two years I have spent at this school, I have gathered all the skills necessary to be a useful asset to your team, having learned about different programming languages, databases, and different project management styles among other things. 
-            In my free time I enjoy creative activities such as drawing and making music. I also like to work out and go skateboarding.
+            Ich heisse Sasha, bin 22 Jahre alt und besuche das zweite Schuljahr an der WISS in Altstetten.
+            Bevor ich mich für den Beruf Applikationsentwickler entschied, habe ich einige verschiedene Berufswege getestet. Nach der Sekundarschule ging ich für zwei Jahre an die Atelierschule Zürich (Rudolf Steiner Schule), machte einen Sprachaufenthalt in London, wo ich mein Cambridge Certificate in Advanced English abschloss und begann eine Lehre als Landschaftsgärtner. Wie sie wahrscheinlich sehen, war weder der Schulweg, noch die Gärtnerlehre das richtige für mich. Nach einer Pause um herauszufinden welchen Berufsweg ich einschlagen möchte, entschied ich mich schlussendlich für den Applikationsentwickler. In der meiner Zeit an der WISS habe ich alle notwendigen Fähigkeiten erlernt, um eine gute Ergänzung für Ihr Team zu sein. Ich habe unter anderem verschiedene Programmiersprachen, Datenbanken und Projektmanagementstile kennengelernt. 
+            In meiner Freizeit geniesse ich kreatives wie Zeichnen und Musik zu machen. Ausserdem treibe ich gerne Sport und gehe Skateboarden.
             </p>
             <p>
-            If you have any further questions, feedback, or would like to talk about the Internship, feel free to send me a message via the contact options listed below. I look forward to hearing from you.
-            </p>
-            <p>
-            In the PDF you will find my CV, my grade sheet, my advanced diploma, my multicheck and the PDF explaining the internship in more detail.
-            </p>
-            <p>
-            At WISS Tests that haven't been written or graded yet, get written down as a "1".
+            Falls Sie Fragen oder Rückmeldungen haben, stehe ich Ihnen gerne zur verfügung. Ich freue mich darauf von Ihnen zu hören.
             </p>
            
           <div className="about-cta">
-            <a href='#downloads' className='btn'>Move To Downloads</a>
-            <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+            <a href='#downloads' className='btn'>Zu den Downloads</a>
+            <a href='#contact' className='btn btn-primary'>Kontakt</a>
           </div>
         </div>
       </div>
