@@ -6,8 +6,12 @@ import IMG1 from '../../assets/M322_Prototyp_Screenshot_2.PNG'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+
+import IMG5 from '../../assets/Canabalt_Screenshot.PNG'
+import IMG6 from '../../assets/Platformer_Screenshot.PNG'
+import IMG7 from '../../assets/Ghost_Runner_Screenshot.PNG'
+import IMG8 from '../../assets/Endless_Runner_Screenshot.PNG'
+import IMG9 from '../../assets/Flappy_Bird_Screenshot.PNG'
 
 import IMG10 from '../../assets/Portfolio_Website_Screenshot.PNG'
 
@@ -26,66 +30,64 @@ const data = [
     id: 2,
     catId: 1,
     image: IMG2,
-    title: 'M347',
+    title: 'M426',
     build: 'https://github.com',
     info: 'https://dribbble.com'
   },
   {
     id: 3,
     catId: 1,
-    image: IMG3,
-    title: 'M322',
-    build: 'https://github.com',
-    info: 'https://dribbble.com'
-  },
-  {
-    id: 4,
-    catId: 1,
-    image: IMG4,
-    title: 'M426',
-    build: 'https://github.com',
-    info: 'https://dribbble.com'
-  },
-  {
-    id: 5,
-    catId: 1,
-    image: IMG5,
-    title: 'Portfolio Title 5',
-    build: 'https://github.com',
-    info: 'https://dribbble.com'
-  },
-  {
-    id: 6,
-    catId: 1,
-    image: IMG6,
-    title: 'Portfolio Title 6',
+    image: IMG2,
+    title: 'M294 & M295',
     build: 'https://github.com',
     info: 'https://dribbble.com'
   },
 
   /*Games*/
   {
-    id: 7,
+    id: 5,
     catId: 2,
-    image: IMG6,
-    title: 'Game 1',
+    image: IMG5,
+    title: 'Canabalt',
     build: 'https://github.com',
     info: 'https://dribbble.com'
   },
-
+  {
+    id: 6,
+    catId: 2,
+    image: IMG6,
+    title: 'Platformer',
+    build: 'https://github.com',
+    info: 'https://dribbble.com'
+  },
+  {
+    id: 7,
+    catId: 2,
+    image: IMG7,
+    title: 'Ghost Runner',
+    build: 'https://github.com',
+    info: 'https://dribbble.com'
+  },
   {
     id: 8,
     catId: 2,
-    image: IMG3,
-    title: 'Game 2',
+    image: IMG8,
+    title: 'Endless Runner',
+    build: 'https://github.com',
+    info: 'https://dribbble.com'
+  },
+  {
+    id: 9,
+    catId: 2,
+    image: IMG9,
+    title: 'Flappy Bird',
     build: 'https://github.com',
     info: 'https://dribbble.com'
   },
 
-
   /*Other*/
   {
-    id: 4,
+    id: 2,
     catId: 3,
     image: IMG10,
     title: 'Portfolio Webseite',
