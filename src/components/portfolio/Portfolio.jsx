@@ -2,16 +2,23 @@ import React from 'react'
 import { useState } from "react";
 import './portfolio.css'
 
+
+import Game1 from '../../assets/Games/Canabalt_PC_Build.zip'
+import Game2 from '../../assets/Games/Platformer_PC_Build.zip'
+import Game3 from '../../assets/Games/Ghost_Runner_PC_Build.zip'
+import Game4 from '../../assets/Games/Endless_Runner_PC_Build.zip'
+import Game5 from '../../assets/Games/Flappy_Bird_PC_Build.zip'
+
 import IMG1 from '../../assets/M322_Prototyp_Screenshot_2.PNG'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 
-import IMG5 from '../../assets/Canabalt_Screenshot.PNG'
-import IMG6 from '../../assets/Platformer_Screenshot.PNG'
-import IMG7 from '../../assets/Ghost_Runner_Screenshot.PNG'
-import IMG8 from '../../assets/Endless_Runner_Screenshot.PNG'
-import IMG9 from '../../assets/Flappy_Bird_Screenshot.PNG'
+import IMG5 from '../../assets/Games/Game_Images/Canabalt_Screenshot.PNG'
+import IMG6 from '../../assets/Games/Game_Images/Platformer_Screenshot.PNG'
+import IMG7 from '../../assets/Games/Game_Images/Ghost_Runner_Screenshot.PNG'
+import IMG8 from '../../assets/Games/Game_Images/Endless_Runner_Screenshot.PNG'
+import IMG9 from '../../assets/Games/Game_Images/Flappy_Bird_Screenshot.PNG'
 
 import IMG10 from '../../assets/Portfolio_Website_Screenshot.PNG'
 
@@ -26,22 +33,30 @@ const data = [
     build: 'https://www.figma.com/file/KyAk8olU0s3HkDHMEOHozM/Sportapp-Simple?type=design&node-id=0-1&mode=design&t=wzpyrEHnK0q1iO5j-0',
     info: 'https://dribble.com'
   },
-  {
-    id: 2,
-    catId: 1,
-    image: IMG2,
-    title: 'M426',
-    build: 'https://github.com',
-    info: 'https://dribbble.com'
-  },
-  {
-    id: 3,
-    catId: 1,
-    image: IMG2,
-    title: 'M294 & M295',
-    build: 'https://github.com',
-    info: 'https://dribbble.com'
-  },
+  // {
+  //   id: 2,
+  //   catId: 1,
+  //   image: IMG2,
+  //   title: 'M426',
+  //   build: 'https://github.com',
+  //   info: 'https://dribbble.com'
+  // },
+  // {
+  //   id: 3,
+  //   catId: 1,
+  //   image: IMG2,
+  //   title: 'M294 & M295',
+  //   build: 'https://github.com',
+  //   info: 'https://dribbble.com'
+  // },
+  // {
+  //   id: 3,
+  //   catId: 1,
+  //   image: IMG2,
+  //   title: 'M347',
+  //   build: 'https://github.com',
+  //   info: 'https://dribbble.com'
+  // },
 
   /*Games*/
   {
@@ -49,7 +64,7 @@ const data = [
     catId: 2,
     image: IMG5,
     title: 'Canabalt',
-    build: 'https://github.com',
+    build: Game1,
     info: 'https://dribbble.com'
   },
   {
@@ -57,7 +72,7 @@ const data = [
     catId: 2,
     image: IMG6,
     title: 'Platformer',
-    build: 'https://github.com',
+    build: Game2,
     info: 'https://dribbble.com'
   },
   {
@@ -65,7 +80,7 @@ const data = [
     catId: 2,
     image: IMG7,
     title: 'Ghost Runner',
-    build: 'https://github.com',
+    build: Game3,
     info: 'https://dribbble.com'
   },
   {
@@ -73,7 +88,7 @@ const data = [
     catId: 2,
     image: IMG8,
     title: 'Endless Runner',
-    build: 'https://github.com',
+    build: Game4,
     info: 'https://dribbble.com'
   },
   {
@@ -81,7 +96,7 @@ const data = [
     catId: 2,
     image: IMG9,
     title: 'Flappy Bird',
-    build: 'https://github.com',
+    build: Game5,
     info: 'https://dribbble.com'
   },
 
@@ -136,7 +151,7 @@ function Portfolio() {
                       <h3>{title}</h3>
                       <div className="portfolio__item-cta">
                         <a href={build} className='btn' target='_blank'>Project</a>
-                        <a href={info} className='btn btn-primary' target='_blank'>Info</a>
+                        {/* <a href={info} className='btn btn-primary' target='_blank'>Info</a> */}
                       </div>
                   </article>
                   )
@@ -157,7 +172,7 @@ function Portfolio() {
                         <h3>{title}</h3>
                         <div className="portfolio__item-cta">
                           <a href={build} className='btn' target='_blank'>Download</a>
-                          <a href={info} className='btn btn-primary' target='_blank'>Info</a>
+                          {/* <a href={info} className='btn btn-primary' target='_blank'>Info</a> */}
                         </div>
                     </article>
                     )
@@ -178,7 +193,7 @@ function Portfolio() {
                         <h3>{title}</h3>
                         <div className="portfolio__item-cta">
                           <a href={build} className='btn' target='_blank'>Project</a>
-                          <a href={info} className='btn btn-primary' target='_blank'>Info</a>
+                          {/* <a href={info} className='btn btn-primary' target='_blank'>Info</a> */}
                         </div>
                     </article>
                     )

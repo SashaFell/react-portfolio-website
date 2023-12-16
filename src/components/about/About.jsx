@@ -20,7 +20,7 @@ const about = () => {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Erfahrung</h5>
@@ -36,7 +36,7 @@ const about = () => {
               <h5>Projekte</h5>
               <small>5+ Fertige Projekte</small>
             </article>
-          </div>
+          </div> */}
 
             <p>
             Ich heisse Sasha, bin 22 Jahre alt und besuche das zweite Schuljahr an der WISS in Altstetten.
