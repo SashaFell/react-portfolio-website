@@ -16,7 +16,7 @@ const downloads = () => {
         <article className="downloads__details">
             {/* <HiOutlineDocumentText className='downloads__details-icon' /> */}
             <div>
-            <h2>All Dokumente</h2>
+            <h2>Alle Dokumente</h2>
             <p>Dieses Dokument beinhaltet meinen Lebenslauf, mein Zeugnis, mein Certificate in Advanced English, meinen Multicheck und zwei Seiten, die die Praktikumsbedingungen näher erklären. Falls sie mehr Informationen brauchen, können sie sich gerne bei mir melden.</p>
             <a href={CV} download className='btn'>Download</a>
             </div>
