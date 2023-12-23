@@ -10,7 +10,7 @@ import Game4 from '../../assets/Games/Endless_Runner_PC_Build.zip'
 import Game5 from '../../assets/Games/Flappy_Bird_PC_Build.zip'
 
 import IMG1 from '../../assets/M322_Prototyp_Screenshot_2.PNG'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/M426_Projekt_Screenshot.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 
@@ -23,7 +23,7 @@ import IMG9 from '../../assets/Games/Game_Images/Flappy_Bird_Screenshot.PNG'
 import IMG10 from '../../assets/Portfolio_Website_Screenshot.PNG'
 
 const data = [
-  
+
   /*School*/
   {
     id: 1,
@@ -33,14 +33,16 @@ const data = [
     build: 'https://www.figma.com/file/KyAk8olU0s3HkDHMEOHozM/Sportapp-Simple?type=design&node-id=0-1&mode=design&t=wzpyrEHnK0q1iO5j-0',
     info: 'https://dribble.com'
   },
-  // {
-  //   id: 2,
-  //   catId: 1,
-  //   image: IMG2,
-  //   title: 'M426',
-  //   build: 'https://github.com',
-  //   info: 'https://dribbble.com'
-  // },
+
+  {
+    id: 2,
+    catId: 1,
+    image: IMG2,
+    title: 'M426',
+    build: 'https://github.com/SashaFell/M426_Projekt',
+    info: 'https://dribble.com'
+  },
+
   // {
   //   id: 3,
   //   catId: 1,
@@ -150,7 +152,7 @@ function Portfolio() {
                     </div>
                       <h3>{title}</h3>
                       <div className="portfolio__item-cta">
-                        <a href={build} className='btn' target='_blank'>Project</a>
+                        <a href={build} className='btn' target='_blank'>Projekt</a>
                         {/* <a href={info} className='btn btn-primary' target='_blank'>Info</a> */}
                       </div>
                   </article>
@@ -192,7 +194,7 @@ function Portfolio() {
                       </div>
                         <h3>{title}</h3>
                         <div className="portfolio__item-cta">
-                          <a href={build} className='btn' target='_blank'>Project</a>
+                          <a href={build} className='btn' target='_blank'>Projekt</a>
                           {/* <a href={info} className='btn btn-primary' target='_blank'>Info</a> */}
                         </div>
                     </article>
