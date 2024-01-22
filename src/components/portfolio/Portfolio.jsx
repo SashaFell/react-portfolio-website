@@ -11,7 +11,7 @@ import Game5 from '../../assets/Games/Flappy_Bird_PC_Build.zip'
 
 import IMG1 from '../../assets/M322_Prototyp_Screenshot_2.PNG'
 import IMG2 from '../../assets/M426_Projekt_Screenshot.png'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/M294&M295_Screenshot_Small.png'
 import IMG4 from '../../assets/portfolio4.jpg'
 
 import IMG5 from '../../assets/Games/Game_Images/Canabalt_Screenshot.PNG'
@@ -42,15 +42,23 @@ const data = [
     build: 'https://github.com/SashaFell/M426_Projekt',
     info: 'https://dribble.com'
   },
+  {
+    id: 3,
+    catId: 1,
+    image: IMG3,
+    title: 'M294 & M295',
+    build: 'https://github.com/SashaFell/M294_M295_LB_Projekt',
+    info: 'https://dribble.com'
+  },
 
-  // {
-  //   id: 3,
-  //   catId: 1,
-  //   image: IMG2,
-  //   title: 'M294 & M295',
-  //   build: 'https://github.com',
-  //   info: 'https://dribbble.com'
-  // },
+  // // {
+  // //   id: 3,
+  // //   catId: 1,
+  // //   image: IMG2,
+  // //   title: 'M294 & M295',
+  // //   build: 'https://github.com',
+  // //   info: 'https://dribbble.com'
+  // // },
   // {
   //   id: 3,
   //   catId: 1,
